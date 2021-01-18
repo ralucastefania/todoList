@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="todos.js"></script>
+    <script defer src="main.js"></script>
+    <title>TODO</title>
+  </head>
+  <body>
+    <div class="main_divs" id="div_my_lists">
+      <h4>my lists</h4>
+      <div>
+        <input type="text" placeholder="e.g. Shopping" id="list_input_box" />
+        <button id="addList">+</button>
+      </div>
+      <ul id="list_names">
+        <!-- <li>
+          <input type="radio" id="list_1" name="my_lists" />
+          <label for="list_1">Shopping</label>
+          <button class="delete">x</button>
+        </li>
+        <li>
+          <input type="radio" id="list_2" name="my_lists" />
+          <label>Eating</label>
+          <button class="delete">x</button>
+        </li> -->
+      </ul>
+    </div>
+    <div class="main_divs" id="div_todo_list">
+      <h4>List name</h4>
+      <div>
+        <input type="text" placeholder="e.g. Smile" />
+        <button>Add</button>
+      </div>
+      <div id="pages">
+        <!-- <h4>my to dos</h4>
+        <ul id="incompleteTasks">
+          <li>
+            <input type="checkbox" />
+            <label>smile</label>
+            <button class="delete">x</button>
+          </li>
+        </ul>
+        <h4>my deeds</h4>
+        <ul id="completedTasks"></ul>
+        <img src="bin.png" id="bin" alt="Delete all completed items" /> -->
+      </div>
+    </div>
+    <div id="delPopup">
+      <p>Are you sure you want to delete all completed items?</p>
+      <button id="btnYes">Yes</button>
+      <button id="btnNo">No</button>
+    </div>
+  </body>
+</html>
